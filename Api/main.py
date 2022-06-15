@@ -34,7 +34,7 @@ async def series(r1,r2,r3):
     serial = (f'serial = {1/float(r1)+1/float(r2)+1/float(r3)**-1:.2f}')
     return  serial,parallel 
 
-print("test")
+print("testss")
 
 if __name__ == "__main__":
     uvicorn.run(app, host="192.168.90.190", port=8080)
